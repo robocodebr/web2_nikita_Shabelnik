@@ -1,0 +1,40 @@
+body {
+    background: red;
+    color: #000;;
+}
+
+h1 {
+    background: blue ;  
+}
+
+.h2class {
+    background: yellow;
+}
+
+#anchor {
+    background: green;
+}
+
+
+ul>li>ul>li {
+    background: darkgrey;
+}
+
+ul>li {
+    color: green;
+}
+
+
+/*Link*/
+    
+a {
+    text-decoration: none;
+    color: #fff;;
+}
+
+/*Selection Block*/
+
+::selection {
+    background-color: #690087;
+    color: #fff;
+}

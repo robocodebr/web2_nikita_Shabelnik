@@ -1,0 +1,64 @@
+* {
+    color: red;
+    text-decoration: none;
+}
+
+p {
+    color: rgb(255, 0, 191);
+}
+
+.list .list_item {
+    color: blue;
+}
+
+.heading {
+    color: blanchedalmond;
+}
+
+h1.heading {
+    color: #000;
+}
+
+#heading2 {
+    color: aqua;
+}
+
+b, i {
+    color: gold;
+}
+
+body>ul li {
+    color: green;
+}
+
+P::after {
+    content: "***";
+    display: inline-block;
+    border-left: 1px solid #000;
+    width: 10px;
+    height: 20px;
+}
+
+p::before {
+    content: "<<<";
+}
+
+a:link {
+    color:aqua;
+}
+
+a:visited {
+    color:blueviolet;
+}
+
+a:active {
+    color:blueviolet;
+}
+
+a:hover {
+    color:rgb(237, 179, 245);
+    font-size: 300px;
+}
+a:focus {
+    color: red;
+}

@@ -1,0 +1,26 @@
+::selection {
+    background-color: #5b2687;
+    color: silver;
+}
+
+h1, a {
+    color: #000;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+a:hover {
+    color: #5b2687;
+}
+
+.underq {
+    text-decoration: none;
+}
+
+h2 {
+    padding-left: 120px;
+}
+
+.fs {
+    font-size: 18px;
+}
